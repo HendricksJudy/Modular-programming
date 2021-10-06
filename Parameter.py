@@ -10,12 +10,13 @@
 # def love(a, b, c, *args, name):
 #     print(a, b, c, *args)
 #     print(name)
-# love(1, 2, 3, 4, 5, 6, 7, 8, 9, name='admin')
+# love(1, 2, 3, 4, 5, 6, 7, 8, 9, name='admin')  # 调用时，实参必须用形参名字传递
 
 
-def love(age, name):
-    print(name)
-    print(age)
-
+# def love(age, name):
+#     print(name)
+#     print(age)
+#
 # love('abc')
-love(name="aabbcc", age=123)
+# love(name="aabbcc", age=123)  # 在调用普通函数时，需要按照顺序进行参数的传输
+# 也可以把普通函数的普通参数按照关键字参数进行传递
